@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@font-face {
+    font-family: Vazirmatn;
+    src: url("font/Vazirmatn-VariableFont_wght.ttf") format("woff2");
+  }  
+@theme {
+    --font-project: "Vazirmatn", sans-serif; 
+  }
+body {
+  @apply font-project;
+}
+  
