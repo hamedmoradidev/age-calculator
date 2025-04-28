@@ -9,4 +9,9 @@
 body {
   @apply font-project;
 }
-  
+@layer utilities {
+  .animate-bounce {
+    animation: bounce 5s infinite;
+  }
+}
+
